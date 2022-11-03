@@ -1,0 +1,17 @@
+<h2>New movie</h2>
+
+<form action="/movies/create" method="post">
+  <label> title:
+    <input type="text" name="title" required />   
+  </label>
+
+  <label> Genre:
+    <input type="text" name="genre" required />
+  </label>
+
+  <label> Plot:
+    <textarea name="plot" required cols="30" rows="4" > </textarea>
+  </label>
+
+  <button type="submit"> Create a movie</button>
+</form>
